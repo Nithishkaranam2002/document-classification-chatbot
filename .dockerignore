@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Envs
+.venv/
+.env
+
+# Data/artifacts (we’ll mount ./data as a volume)
+data/cache/*
+!.git
+
+# OS/editor
+.DS_Store
+.vscode/

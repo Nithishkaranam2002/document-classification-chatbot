@@ -1,0 +1,29 @@
+# Web UI
+streamlit>=1.34
+
+# Google Gemini API
+google-generativeai>=0.7.2
+python-dotenv>=1.0.1
+
+# Document parsing
+pypdf>=4.3.1
+python-docx>=1.1.2
+
+# Vector search
+faiss-cpu>=1.8.0
+
+# Data utils
+numpy>=1.26
+pandas>=2.2
+tqdm>=4.66
+
+# Voice / audio
+streamlit-mic-recorder>=0.0.8
+faster-whisper>=1.0
+gTTS>=2.5.1
+pydub>=0.25.1
+
+# OCR (optional but recommended for scanned PDFs/images)
+pytesseract>=0.3.10
+pdf2image>=1.17.0
+pillow>=10.3.0
